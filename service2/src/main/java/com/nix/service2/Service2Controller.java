@@ -17,8 +17,8 @@ public class Service2Controller {
     }
 
     @GetMapping("/")
-    public String getService2() {
-        log.info("get data of service2");
+    public String getService3Data() {
+        log.info("get service4 data");
         return "service2, " + restTemplate.getForObject(URL, String.class);
     }
 }

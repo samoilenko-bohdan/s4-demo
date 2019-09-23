@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Service4Controller {
 
     @GetMapping("/")
-    public String getService1Greetings() {
+    public String getService4Greetings() {
         log.info("Hello from service4");
         return "service4";
     }
